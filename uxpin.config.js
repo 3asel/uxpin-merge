@@ -26,7 +26,7 @@ module.exports = {
             'src/components/Rating/Rating.js',
             'src/components/Select/Select.js',
             'src/components/Switch/Switch.js',
-            'src/components/SwitchWithlabel/SwitchWithlabel.js',
+            // 'src/components/SwitchWithlabel/SwitchWithlabel.js',
             // 'src/components/SwitchGroup/SwitchGroup.js',  <-- NOT CHANGING STATE IN PREVIEW
             'src/components/TextField/TextField.js',
             'src/components/ToggleButton/ToggleButton.js',
@@ -137,8 +137,8 @@ module.exports = {
           ]
         }
       ],
-      wrapper: 'src/components/UXPinWrapper/UXPinWrapper.js',
-      webpackConfig: 'uxpin.webpack.config.js',
+      wrapper: 'src/components/Wrapper/UXPinWrapper.js',
+      webpackConfig: 'webpack.config.js',
     },
     name: 'material-ui-uxpin'
   };
